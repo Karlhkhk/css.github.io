@@ -1,0 +1,82 @@
+/* Kõik */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+}
+
+
+.header{
+    background: #f77a05;
+    background: linear-gradient(90deg, rgba(247, 122, 5, 1) 0%, rgba(152, 199, 87, 1) 65%, rgba(237, 221, 83, 1) 100%);
+    height: 480px;
+    padding-top: 80px;
+}
+
+.header h1, .header p{
+    text-align: center;
+    font-family: 'playfair';
+    color: #fff;
+}
+
+.header h1{
+    font-size: 100px;
+    margin: 10px;
+}
+.header p{
+    font-style: italic;
+    font-size: 30px;
+}
+.header img{
+    display: block;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid #ffcc00;
+    
+}
+
+/* sisu */
+
+
+.content{
+    display: flex; 
+    font-size: 20px;
+    height: 600px;
+}
+
+.left{
+    float: left;
+    width: 25%;
+}
+
+.left img{
+    padding: 100px 100px;
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+
+.right{
+    line-height: 2;
+    padding: 100px;
+    width: 75%;
+}
+/* jalus */
+
+.footer {
+    background-color: #f5ca3d;
+    display: flex;
+}
+
+.footer p{
+    padding: 40px 40px;
+    margin: auto;
+    font-size: 32px;
+    color: #fff;
+}
